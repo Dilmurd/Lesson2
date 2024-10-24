@@ -1,0 +1,49 @@
+.about{
+    margin-top: 135px;
+    .about__titles{
+        margin-bottom: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .about__title{
+            font-size: 16px;
+            font-weight: 500;
+            color: #3858D6;
+            font-family: pop;
+        }
+        .about__subtitle{
+            font-size: 36px;
+            font-weight: 700;
+            font-family: pop;
+            color: #1E1D1D;
+        }
+    }
+    .about__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 47px;
+        .about__card{
+            width: 524px;
+            height: 239px;
+            background-color: #F6F6F6;
+            padding: 30px 34px;
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+        .text{
+            .inf{
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            .desc{
+                max-width: 255px;
+                font-size: 16px;
+                color: #8B8E99;
+                margin-bottom: 9px;
+            }
+        }
+    }
+}

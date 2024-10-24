@@ -1,0 +1,92 @@
+.main{
+    background-color: #000;
+    .header{
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            .navbar__logo{
+                display: flex;
+                color: #fff;
+                align-items: center;
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: pop;
+                }
+            }
+            .navbar__collection{
+                display: flex;
+            color: #fff;
+            font-family: pop;
+            gap: 27px;
+            align-items: center;
+        }
+        .navbar__icons{
+            display: flex;
+            gap: 15px;
+            svg{
+                color: #fff;
+            }
+        }
+    }
+}
+
+.hero{
+    padding: 102px 0;
+    .hero__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 184px;
+        .hero__text{
+            .hero__title{
+                max-width: 457px;
+                font-size: 64px;
+                font-family: pop;
+                font-weight: 700;
+                margin-bottom: 12px;
+                color: #fff;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: pop;
+                color: #8B8E99;
+                margin-bottom: 47px;
+            }
+            .hero__search{
+                width: 443px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                border-radius: 15px;
+                background-color: #fff;
+                img{
+                    margin-left: 19px;
+                }
+                input{
+                    width: 100%;
+                    height: 100%;
+                    outline: none;
+                    padding: 0 10px;
+                    font-size: 16px;
+                    color: #8B8E99B2;
+                    border: none;
+                }
+                .hero__btn{
+                    margin-right: 9px;
+                    padding: 14px 20px;
+                    border: none;
+                    border-radius: 9px;
+                    background-color: #3858D6;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: pop;
+                }
+            }
+        }
+    }
+}
+}
